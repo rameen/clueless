@@ -1,0 +1,45 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+@font-face {
+	font-family: AidaF;
+	src: url('../site_font/c.ttf');
+}
+body {
+	width: 100%;
+	height: auto;
+	background-color: #cccccc;
+	background-image: url(../site_images/back.jpg);
+	font-family: Arial;
+	font-size: 100%;
+}
+#bod_midarea {
+	z-index: 1;
+	position: relative;
+	top: 130px;
+	height: 300px;
+	width: 100%;
+	background-color: #313346;
+}
+#bod_container {
+	z-index: 2;
+	position: relative;
+	top: 130px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	width: 1000px;
+	background-color: #467C2D;
+}
+#bod_footer {
+	z-index: 3;
+	position: relative;
+	top: 130px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	width: 1000px;
+	background-color: #ff0f0f;
+}

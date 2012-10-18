@@ -1,0 +1,57 @@
+#bod_header {
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 130px;
+	width: 100%;
+	float: top;
+	background-color: #2B2B2B;
+	background-image: url("../site_images/menu.jpg");
+	color: #ffffff;
+	font-family: AidaF, serif;
+	font-size: 1.5em;
+}
+#menu_main {
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	height: 130px;
+	width: 1000px;
+	/*background-color: #2B2B2B;*/
+}
+#site_icon {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 500px;
+	height: 130px;
+}
+#site_search {
+	position: relative;
+	left: 500px;
+	top: -130px;
+	width: 500px;
+	height: 65px;
+}
+#site_menu {
+	position: relative;
+	left: 500px;
+	top: -130px;
+	width: 500px;
+	height: 65px;
+}
+#site_menu ul {
+	position: relative;
+	left: 7px;
+	top: 20px;
+	width: 500px;
+	height: 65px;
+}
+#site_menu li {
+	float: left;
+	padding-right: 10px;
+	text-align: center;
+}
